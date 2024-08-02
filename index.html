@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Tutorial</title>
+    <!--internal css-->
+    <style>
+        /* Element Selector */
+        p {
+            color: blue;
+            font-size: 16px;
+        }
+
+        /* ID Selector */
+        #header {
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        /* Class Selector */
+        .highlight {
+            background-color: yellow;
+        }
+
+        /* Group Selector */
+        h1, h2 {
+            color: darkred;
+        }
+    </style>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Welcome to Web Development. </h1>
+        <h2>Learning HTML and CSS</h2>
+    </header>
+    <main>
+        <p>This is a paragraph styled using an element selector.</p>
+        <p id="intro">This paragraph is styled using an ID selector.</p>
+        <p class="highlight">This paragraph is styled using a class selector.</p>
+        <p class="highlight" style="color: green; font-weight: bold;">This paragraph uses inline CSS to override the internal style.</p>
+    </main>
+</body>
+</html>

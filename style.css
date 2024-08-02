@@ -1,0 +1,21 @@
+/* External CSS */
+
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* ID Selector */
+#intro {
+    font-style: italic;
+}
+
+/* Class Selector */
+.highlight {
+    border: 1px solid black;
+}
+
+/* Group Selector */
+header, main {
+    margin: 20px;
+}
